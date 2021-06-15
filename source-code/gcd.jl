@@ -2,8 +2,7 @@
 
 function main()
     if length(ARGS) != 2
-        write(stderr, "error: two arguments required")
-        return 1
+        error("two arguments expected")
     end
     a = parse(Int, ARGS[1])
     b = parse(Int, ARGS[2])
