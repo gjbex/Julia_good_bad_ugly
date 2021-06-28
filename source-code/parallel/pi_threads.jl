@@ -13,6 +13,7 @@ end
 
 function main()
     arg_parser = ArgParseSettings()
+    arg_parser.description = "Compute pi using a quadrature method on multiple threads"
     @add_arg_table arg_parser begin
         "n"
             help = "number of point for the quadrature method"

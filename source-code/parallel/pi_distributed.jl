@@ -20,6 +20,7 @@ end
 
 function main()
     arg_parser = ArgParseSettings()
+    arg_parser.description = "Compute pi using a quadrature on multiple processes"
     @add_arg_table arg_parser begin
         "--nr_points", "-p"
             arg_type = Int64
