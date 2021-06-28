@@ -1,5 +1,6 @@
 #!/usr/bin/env julia
 
+using ArgParse
 using Distributed
 
 function compute_pi(a::Float64, b::Float64, n::Int64)::Float64
@@ -18,11 +19,21 @@ function compute_pi(a::Float64, b::Float64, n::Int64)::Float64
 end
 
 function main()
-    if length(ARGS) != 2
-        error("expecting nr_points and nr_workers as arguments")
+    arg_parser = ArgParseSettings()
+    @add_arg_table arg_parser begin
+        "--nr_points", "-p"
+            arg_type = Int64
+            help = "number of points for the quadrature method"
+            required = true
+        "--nr_workers", "-w"
+            arg_type = Int
+            help = "number of workers to use"
+            default = 0
     end
-    nr_points = parse(Int64, ARGS[1])
-    nr_workers = parse(Int, ARGS[2])
+    options = parse_args(ARGS, arg_parser)
+    nr_points = options["nr_points"]
+    nr_workers = options["nr_workers"]
+    println("running with $nr_workers workers")
     if nr_workers == 0
         println(compute_pi(-1.0, 1.0, nr_points))
     else
