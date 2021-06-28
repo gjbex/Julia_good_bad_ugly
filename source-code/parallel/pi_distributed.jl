@@ -35,7 +35,8 @@ function main()
     nr_workers = options["nr_workers"]
     println("running with $nr_workers workers")
     if nr_workers == 0
-        println(compute_pi(-1.0, 1.0, nr_points))
+        @time result = compute_pi(-1.0, 1.0, nr_points)
+        println(result)
     else
         addprocs(nr_workers)
         @everywhere function compute_pi(a::Float64, b::Float64, n::Int64)::Float64
