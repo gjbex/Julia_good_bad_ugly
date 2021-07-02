@@ -2,6 +2,17 @@
 
 using ArgParse
 
+function gcd(a::Int, b::Int)::Int
+    while a != b
+        if a > b
+            a -= b
+        else
+            b -= a
+        end
+    end
+    return a
+end
+    
 function main()
     arg_parser = ArgParseSettings()
     arg_parser.description = "Compute the greatest common divisor of two integers"
@@ -16,18 +27,9 @@ function main()
             help = "second integer"
     end
     options = parse_args(ARGS, arg_parser)
-    a = options["a"]
-    b = options["b"]
 
-    while a != b
-        if a > b
-            a -= b
-        else
-            b -= a
-        end
-    end
+    println(gcd(options["a"], options["b"]))
 
-    println(a)
     return 0
 end
 
