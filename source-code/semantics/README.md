@@ -10,3 +10,5 @@ A few Julia scripts to explore semantics of the langauge.
 1. `nested_for.jl`: illustratin of nested for loops.
 1. `logical_shortcircuit.jl`: illustration of using logical shortcircuit operators.
 1. `exception.jl`: illustration of exception handling using try/catch.
+1. `Points.jl`: definition of `PointStyle` trait and functions on types with that trait.
+1. `point_test.ipynb`: illustration of using the `Points` module.
