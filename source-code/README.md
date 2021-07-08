@@ -10,3 +10,5 @@ Directory containing the source code for this training, including examples.
 1. `parallel`: some illustration of running Julia parallel code.
 1. `semantics`: small scripts to test various aspects of Julia semantics.
 1. `types`: notebooks and scripts to illustrate typing in Julia.
+1. `code-organization`: some illustrations of organizing code in modules and
+   packages, as well as documentation.
