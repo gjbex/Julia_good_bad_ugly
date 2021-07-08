@@ -12,3 +12,5 @@ A few Julia scripts to explore semantics of the langauge.
 1. `exception.jl`: illustration of exception handling using try/catch.
 1. `ambiguous_methods.ipynb`: notebook illustrating mabiguous methods in functions
    and how to detect them.
+1. `do_syntax.ipynb`: illustration of do-syntax as alternative for usual lambda
+   functions.
