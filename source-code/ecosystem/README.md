@@ -8,3 +8,4 @@ problems.
 
 1. struct-arrays`: package to automatically convert an array of structures into
   a structure of arrays.
+1. `gadlfy`: package for creating plots.
