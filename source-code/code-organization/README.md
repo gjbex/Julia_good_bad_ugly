@@ -6,6 +6,8 @@ How to organize Julia code.
 
 1. `MyFunctions.jl`: module defining a few functions.
 1. `compute_fact.jl`: Julia script using the module.
+1. `run_compute_fact.sh`: Bash script illustrating how to run a Juiia script
+   that uses a local module.
 
 
 ## Remark
