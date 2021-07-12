@@ -8,6 +8,11 @@ How to organize Julia code.
 1. `compute_fact.jl`: Julia script using the module.
 1. `run_compute_fact.sh`: Bash script illustrating how to run a Juiia script
    that uses a local module.
+1. `Gcd`: Julia package with a single module.
+1. `compute_gcd.jl`: Julia script using the `my_gcd` function in the `Gcd` package.
+1. `run_compute_gcd.sh`: Bash script illustrating how to run a Juiia script
+   that uses a local package.
+1. `documentation.ipynb`: Jupyter notebook illustrating Julia function documentation.
 
 
 ## Remark

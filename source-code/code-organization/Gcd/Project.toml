@@ -1,0 +1,4 @@
+name = "Gcd"
+uuid = "6101a580-870c-4971-a759-bb25a2f00590"
+authors = ["Geert Jan Bex <geertjan.bex@uhasselt.be>"]
+version = "0.1.0"
