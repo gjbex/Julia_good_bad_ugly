@@ -13,6 +13,7 @@ How to organize Julia code.
 1. `run_compute_gcd.sh`: Bash script illustrating how to run a Juiia script
    that uses a local package.
 1. `documentation.ipynb`: Jupyter notebook illustrating Julia function documentation.
+   The documented function is in the `Gcd` module.
 
 
 ## Remark
