@@ -5,7 +5,7 @@ How to organize Julia code.
 ## What is it?
 
 1. `MyFunctions.jl`: module defining a few functions.
-1. `compute.jl`: Julia script using the module.
+1. `compute_fact.jl`: Julia script using the module.
 
 
 ## Remark
