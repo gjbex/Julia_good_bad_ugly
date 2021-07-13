@@ -5,5 +5,5 @@ Some illustrations of running parallel Julia code.
 
 ## What is it?
 
-1. `pi_distributed.jl`: Julia script to compute pi using multiple processes.
-1. `pi_threads.jl`: Julia script to compute pi using multiple threads.
+1. `pi`: computing pi using a quadrature method.
+1. `julia_set`: computing the Julia set using Distributed.
