@@ -13,3 +13,4 @@ Directory containing the source code for this training, including examples.
 1. `code-organization`: some illustrations of organizing code in modules and
    packages, as well as documentation.
 1. `ecosystem`: a few illustrations of third-party packages in Julia's ecosystem.
+1. `performance`: comparing performance to other programming languages.
