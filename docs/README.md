@@ -20,7 +20,8 @@ When you complete this training you will
   * learn how to design your code;
   * know how to do file I/O;
   * know how to organize and document your code;
-  * learn about the Julia ecosystem.
+  * learn about the Julia ecosystem;
+  * learn about parallel programming with Julia.
 
 
 ## Schedule
