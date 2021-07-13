@@ -19,10 +19,3 @@ file(MAKE_DIRECTORY ${CMAKE_Fortran_MODULE_DIRECTORY})
 # sequential implementation
 add_executable(julia_set.exe
     julia_set_mod.f90 julia_set.f90)
-
-# OpenMP implementation
-add_executable(julia_set_omp.exe
-    julia_set_mod.f90 julia_set_omp_mod.f90
-    julia_set_omp.f90)
-target_compile_options(julia_set_omp.exe PUBLIC -fopenmp)
-target_link_options(julia_set_omp.exe PUBLIC -fopenmp)
