@@ -28,3 +28,13 @@ $ julia
 julia> using Pkg
 julia> Pkg.add("IJulia")
 ```
+
+## Contributors
+
+* Geert Jan Bex ([geertjan.bex@uhasselt.be](mailto:geertjan.bex@uhasselt.be)),
+  Hasselt University/University of Leuven
+* Joris Van Houtven
+  * suggestions to improve the Powerpoint presentation
+
+You are very welcome to contribute, please read
+[some guidelines](CONTRIBUTING.md) before you do.
