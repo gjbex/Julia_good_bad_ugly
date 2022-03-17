@@ -14,3 +14,4 @@ A few Julia scripts to explore semantics of the langauge.
    and how to detect them.
 1. `do_syntax.ipynb`: illustration of do-syntax as alternative for usual lambda
    functions.
+1. `oop_like_mehthods.ipynb`: notebook illustrating Python-like methods in Julia.
