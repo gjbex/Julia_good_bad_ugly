@@ -23,3 +23,7 @@ docs/site/
 # environment.
 Manifest.toml
 /~$Julia,_good_back_ugly.pptx
+
+# editor backup files
+*~
+*.bak
