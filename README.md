@@ -9,6 +9,7 @@ familiar with the language.
 1. `julia,_good_back_ugly.pptx`: Powerpoint presentation highlighting features
    of the Julia programming language.
 1. `source-code`: Julia source code and notebooks.
+1. `environment.yml`: conda environment to use  Jupyter lab.
 1. `LICENSE`: license information for the material in this repository.
 1. `CONTRIBUTING.md`: how to contirubte to this repository.
 
@@ -28,6 +29,8 @@ $ julia
 julia> using Pkg
 julia> Pkg.add("IJulia")
 ```
+*Note:* recent versions of Julia will offer to install the package when
+you first try to use it.
 
 ## Contributors
 

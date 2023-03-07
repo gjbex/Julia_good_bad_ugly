@@ -1,0 +1,8 @@
+[deps]
+AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Gadfly = "c91e804a-d5a3-530f-b6f0-dfbca275c004"
+MethodAnalysis = "85b6ec6f-f7df-4429-9514-a64bcd9ee824"
+StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
