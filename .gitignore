@@ -23,6 +23,7 @@ docs/site/
 # environment.
 Manifest.toml
 /~$Julia,_good_back_ugly.pptx
+<<<<<<< HEAD
 
 # editor backup files
 *~
@@ -30,3 +31,6 @@ Manifest.toml
 
 # direnv configuration file
 .envrc
+
+# Powerpoint backup file
+~$julia_good_back_ugly.pptx
