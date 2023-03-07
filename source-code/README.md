@@ -5,6 +5,8 @@ Directory containing the source code for this training, including examples.
 
 ## What is it?
 
+1. `hello_world.jl`: simple script to illustrate command line
+   invocation.
 1. `julia_features.ipynb`: illustration of some basic Julia features.
 1. `parallel`: some illustration of running Julia parallel code.
 1. `semantics`: small scripts to test various aspects of Julia semantics.
