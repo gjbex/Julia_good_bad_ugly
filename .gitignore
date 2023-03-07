@@ -27,3 +27,6 @@ Manifest.toml
 # editor backup files
 *~
 *.bak
+
+# direnv configuration file
+.envrc
