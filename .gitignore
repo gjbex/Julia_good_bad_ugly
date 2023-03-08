@@ -34,3 +34,6 @@ Manifest.toml
 
 # Powerpoint backup file
 ~$julia_good_back_ugly.pptx
+
+# Python notebook checkpoint dirctories
+.ipynb_checkpoints/
