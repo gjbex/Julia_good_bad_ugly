@@ -15,3 +15,4 @@ Directory containing the source code for this training, including examples.
    packages, as well as documentation.
 1. `ecosystem`: a few illustrations of third-party packages in Julia's ecosystem.
 1. `performance`: comparing performance to other programming languages.
+1. `macros`: illustrations of Julia metaprogramming using macros.
