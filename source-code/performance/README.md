@@ -1,6 +1,6 @@
 # Performance
 
-Some sample code to cmopare the performance of Julia to other programming
+Some sample code to compare the performance of Julia to other programming
 langauges.
 
 
