@@ -10,11 +10,15 @@ familiar with the language.
    of the Julia programming language.
 1. `source-code`: Julia source code and notebooks.
 1. `environment.yml`: conda environment to use  Jupyter lab.
+1. `SETUP.md`: instructions for installing Julia with `juliaup`, restoring the
+   Julia package environment, and setting up Jupyter notebooks.
 1. `LICENSE`: license information for the material in this repository.
 1. `CONTRIBUTING.md`: how to contirubte to this repository.
 
 
 ## How to?
+
+See [SETUP.md](SETUP.md) for the full environment setup.
 
 To start a Julia notebook
 ```bash
