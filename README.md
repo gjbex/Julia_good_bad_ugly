@@ -9,6 +9,8 @@ familiar with the language.
 1. `julia,_good_back_ugly.pptx`: Powerpoint presentation highlighting features
    of the Julia programming language.
 1. `source-code`: Julia source code and notebooks.
+1. `julia_false_friends_by_language.md`: notes on habits that do not translate
+   directly from C, C++, Fortran, Python, R, or MATLAB to Julia.
 1. `environment.yml`: conda environment to use  Jupyter lab.
 1. `SETUP.md`: instructions for installing Julia with `juliaup`, restoring the
    Julia package environment, and setting up Jupyter notebooks.
