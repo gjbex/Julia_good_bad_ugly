@@ -1,0 +1,160 @@
+schema_version = 2
+id = "julia-good-bad-ugly"
+title = "Julia: the good, the bad and the ugly"
+content_language = "en"
+summary = """
+The Julia programming language has gained quite some popularity over the last couple of years. What are its strong points, its weak points? Is it an elegant language to work with? Should you learn it, use it? This training tries to give you some insights into the language and how it compares to other similar programming languagues such as MATLAB and Python so that you can answer these questions for yourself.
+"""
+languages = ["Julia"]
+
+[[learning_outcomes]]
+statement = "Write Julia expressions."
+competencies = ["julia.basic-programming"]
+
+[[learning_outcomes]]
+statement = "Know how to write functions."
+competencies = ["julia.basic-programming"]
+
+[[learning_outcomes]]
+statement = "Know the control flow statements."
+competencies = ["julia.basic-programming"]
+
+[[learning_outcomes]]
+statement = "Know the data types that Julia supports."
+competencies = ["julia.basic-programming"]
+
+[[learning_outcomes]]
+statement = "Learn how to design your code."
+competencies = ["julia.organize-and-document-code"]
+
+[[learning_outcomes]]
+statement = "Know how to do file I/O."
+competencies = ["julia.file-io"]
+
+[[learning_outcomes]]
+statement = "Know how to organize and document your code."
+competencies = ["julia.organize-and-document-code"]
+
+[[learning_outcomes]]
+statement = "Learn about the Julia ecosystem."
+competencies = ["julia.use-package-ecosystem"]
+
+[[learning_outcomes]]
+statement = "Learn about parallel programming with Julia."
+competencies = ["julia.parallel-programming"]
+
+[source]
+metadata_document = "docs/README.md"
+repository_url = "https://github.com/gjbex/Julia_good_bad_ugly/"
+website_url = "https://gjbex.github.io/Julia_good_bad_ugly/"
+license = "CC-BY-4.0"
+
+[delivery]
+duration_minutes = 240
+duration_kind = "fixed"
+session_count = 1
+target_session_duration_minutes = 240
+schedule_complete = true
+description = """
+Total duration: 4 hours.
+"""
+
+[audience]
+description = """
+This training is for you if you want to learn some Julia to see whether it would work for you.
+"""
+
+[prerequisites]
+summary = """
+You will need experience programming in some programming language such as Python, MATLAB, R or C/C++/Fortran. This is not a training that teaches you how to program. If you plan to do Julia programming in a Linux or HPC environment you should be familiar with these as well. More concretely, participants should already be comfortable with the following: * variables, expressions, control flow, and writing functions in some other programming language; * basic data structures such as arrays/lists, maps/dictionaries, or sets; * reading short programs and understanding how data flows through them; * basic problem decomposition into helper functions or modules; * running scripts or notebooks at a basic level; * compiling or running programs from the command line at a basic level; * working in a shell environment well enough to edit files, run commands, and inspect output. You do not need prior experience with Julia itself, multiple dispatch, Julia's type system, modules, packages, macros, or parallel programming in Julia. Those are part of the training itself.
+"""
+competencies = ["programming.control-flow", "programming.functions", "programming.basic-data-structures", "programming.program-decomposition", "programming.read-and-trace-code", "command-line.run-or-compile-programs", "shell.edit-run-inspect"]
+
+[self_assessment]
+introduction = """
+If you can do most of the tasks below in some programming language, you are likely ready for this training.
+"""
+tasks = [
+  "Write a function that computes the average of a list of numbers.",
+  "Loop over a collection and compute a derived result such as a sum or count.",
+  "Use `if`/`else` or a `switch`-like construct to classify values into cases.",
+  "Split a program into a few helper functions or files.",
+  "Read data from a text file and print a simple summary.",
+  "Run a script or notebook cell and inspect the result.",
+  "Read a short program and explain what it does.",
+  "Make a small change to an existing program and run it again."
+]
+
+[level]
+introductory_percent = 40
+intermediate_percent = 40
+advanced_percent = 20
+
+[[materials]]
+kind = "slides"
+path = "julia_good_back_ugly.pptx"
+
+[[materials]]
+kind = "source-code"
+path = "source-code"
+
+[[materials]]
+kind = "environment"
+path = "environment.yml"
+
+[[trainers]]
+name = "Geert Jan Bex"
+email = "geertjan.bex@uhasselt.be"
+
+[[maintainers]]
+name = "Geert Jan Bex"
+email = "geertjan.bex@uhasselt.be"
+
+[[sessions]]
+id = "session-1"
+title = "Session one"
+duration_minutes = 240
+
+[[sessions.items]]
+subject = "introduction and motivation"
+duration_minutes = 5
+
+[[sessions.items]]
+subject = "expressions"
+duration_minutes = 15
+
+[[sessions.items]]
+subject = "functions and methods"
+duration_minutes = 30
+
+[[sessions.items]]
+subject = "control flow"
+duration_minutes = 20
+
+[[sessions.items]]
+subject = "coffee break"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "data types"
+duration_minutes = 60
+
+[[sessions.items]]
+subject = "coffee break"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "I/O"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "code organization"
+duration_minutes = 15
+
+[[sessions.items]]
+subject = "Julia ecosystem"
+duration_minutes = 30
+
+[[sessions.items]]
+subject = "wrap up"
+duration_minutes = 10
